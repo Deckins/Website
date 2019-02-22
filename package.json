@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://deckins.github.io/website/",
+  "homepage": "https://deckins.github.io/Website/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
