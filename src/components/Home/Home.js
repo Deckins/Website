@@ -12,7 +12,7 @@ class Home extends Component {
                     <p>
                         Hi welcome to my website feel free to explore and have a look at my projects.
                     </p>
-                </Jumbotron>;
+                </Jumbotron>
             </div>
         );
     }

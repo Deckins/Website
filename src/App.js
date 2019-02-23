@@ -4,22 +4,25 @@ import About from './components/About/About';
 import Project from './components/Projects/Project';
 import Contact from './components/Contact/Contact';
 import ToolBar from './components/ToolBar/ToolBar';
-import {BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div className='App'>
-        <ToolBar/>
-        <Route exact path="/Website" component={Home}/>
-        <Route exact path="Website/about" component={About}/>
-        <Route exact path="Website/projects" component={Project}/>
-        <Route exact path="Website/contact" component={Contact}/>
+        <div className='App'>
+          <ToolBar />
+          
+            <Redirect to='/Website' from='/' />
+            <Route exact path="/Website" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/projects" component={Project} />
+            <Route exact path="/contact" component={Contact} />
+          
 
 
-      </div>
+        </div>
       </BrowserRouter>
     );
   }
