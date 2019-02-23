@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+class Contact extends Component {
     render() {
         return (
             <div>
-                Hi I am benny Thai
+                You can contact me @bennythai2014@yahoo.com
             </div>
         );
     }
 }
 
-export default About;
+export default Contact;

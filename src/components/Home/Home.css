@@ -1,0 +1,11 @@
+.header-image {
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    margin: 20px auto;
+}
+.jumbotron{
+    background-color:#337AB7;
+    color:white;
+    margin: 0 30px;
+}
