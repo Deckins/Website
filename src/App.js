@@ -15,7 +15,7 @@ class App extends Component {
       <BrowserRouter>
         <div className='App'>
         <Switch>
-          <Route exact path="/images" component={Images} />
+          <Route exact path="/Website/images" component={Images} />
           <ToolBar />
           <Redirect to='/Website' from='/' exact />
         </Switch>
