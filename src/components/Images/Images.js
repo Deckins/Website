@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import {Image} from 'react-bootstrap';
 class Images extends Component {
     render() {
         return (
             <div>
-                <img src='./assets/images/bear.jpg'/>
+                <Image src='./assets/images/bear.jpg'/>
             </div>
         );
     }
