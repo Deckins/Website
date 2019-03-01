@@ -5,6 +5,7 @@ class Images extends Component {
         return (
             <div>
                 <Image src='./Website/assets/images/bear.jpg'/>
+                <p>An image of a bear should be here</p>
             </div>
         );
     }
