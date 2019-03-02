@@ -11,3 +11,9 @@
     width:700px;
     font-family:'arial';
 }
+
+@media screen and (max-width: 600px){
+    .jumbotron{
+        width:400px;
+    }
+}
