@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div className='black'>
-                <Image src='https://deckins.github.io/Website/images'
+                <Image src='/Website/assets/images/bear.jpg'
                     className='header-image' />
                 <Jumbotron className='jumbotron'>
                     <h1>Looks like you've stumbled to the right place!</h1>
