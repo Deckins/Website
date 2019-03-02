@@ -6,7 +6,7 @@ class ToolBar extends Component {
   render() {
     return (
       <Navbar bg="primary" variant="light">
-        <NavLink exact to="/Website" style={{ color: 'white' }}><h4>Home</h4></NavLink>
+        <NavLink exact to="/Website/home" style={{ color: 'white' }}><h4>Home</h4></NavLink>
         <ul>
           <li><NavLink style={{ color: 'white' }} activeStyle={{ color: 'blue' }} to="/projects">Projects</NavLink></li>
           <li><NavLink style={{ color: 'white' }} activeStyle={{ color: 'blue' }} to="/about">About Me</NavLink></li>

@@ -5,13 +5,11 @@ class Home extends Component {
     render() {
         return (
             <div className='black'>
-                <Image src='/Website/assets/images/bear.jpg'
+                 <Image src='/Website/assets/images/bear.jpg'
                     className='header-image' />
                 <Jumbotron className='jumbotron'>
-                    <h1>Welcome!</h1>
                     <h5>
                        Feel free to browse my webpage
-                        
                     </h5>
                     <h5>and contact me if you have any questions or comments!</h5>
                 </Jumbotron>

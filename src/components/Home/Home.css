@@ -4,6 +4,10 @@
     width:200px;
     margin: 20px auto;
 }
+.background{
+    max-width:100%;
+    height:auto;
+}
 .jumbotron{
     background-color:#337AB7;
     color:white;
