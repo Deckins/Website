@@ -7,5 +7,7 @@
 .jumbotron{
     background-color:#337AB7;
     color:white;
-    margin: 0 30px;
+    margin: 0 auto;
+    width:700px;
+    font-family:'arial';
 }

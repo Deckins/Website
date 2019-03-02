@@ -4,8 +4,6 @@ import About from './components/About/About';
 import Project from './components/Projects/Project';
 import Contact from './components/Contact/Contact';
 import ToolBar from './components/ToolBar/ToolBar';
-import Images from './components/Images/Images';
-
 import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
 import './App.css';
 
@@ -15,7 +13,6 @@ class App extends Component {
       <BrowserRouter>
         <div className='App'>
         <Switch>
-          <Route exact path="/Website/images" component={Images} />
           <ToolBar />
           <Redirect to='/Website' from='/' exact />
         </Switch>

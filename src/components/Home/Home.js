@@ -8,10 +8,12 @@ class Home extends Component {
                 <Image src='/Website/assets/images/bear.jpg'
                     className='header-image' />
                 <Jumbotron className='jumbotron'>
-                    <h1>Looks like you've stumbled to the right place!</h1>
-                    <p>
-                        Hi welcome to my website feel free to explore and have a look at my projects.
-                    </p>
+                    <h1>Welcome!</h1>
+                    <h5>
+                       Feel free to browse my webpage
+                        
+                    </h5>
+                    <h5>and contact me if you have any questions or comments!</h5>
                 </Jumbotron>
             </div>
         );
