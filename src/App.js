@@ -13,12 +13,14 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className='App'>
+        
         <Switch>
           <Redirect to='/Website' from='/' exact />
+          <Route exact path="/Website" component={Landing} />
           <ToolBar />
           
         </Switch>
-            <Route exact path="/Website" component={Landing} />
+            
             <Route exact path="/Website/home" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Project} />

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Image, Jumbotron } from 'react-bootstrap';
 import './Home.css';
+import Footer from '../Footer/Footer';
 class Home extends Component {
     render() {
         return (
@@ -13,6 +14,7 @@ class Home extends Component {
                     </h5>
                     <h5>and contact me if you have any questions or comments!</h5>
                 </Jumbotron>
+                <Footer/>
             </div>
         );
     }
