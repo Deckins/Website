@@ -8,6 +8,9 @@
     max-width:100%;
     height:auto;
 }
+.center{
+    margin:auto;
+}
 .jumbotron{
     background-color:#337AB7;
     color:white;
@@ -19,9 +22,10 @@
 @media screen and (max-width: 600px){
     .jumbotron{
         width:400px;
+        
     }
     .header-image{
-        height:100px;
-        width:100px;
+        height:120px;
+        width:120px;
     }
 }

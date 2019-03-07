@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
 import Display from './Display';
+import Footer from '../Footer/Footer';
 import './Project.css';
 const Project = (props) => {
 
@@ -48,6 +49,7 @@ const Project = (props) => {
                     />
                 </Col>
             </Row>
+            {/* <Footer/> */}
         </div>
     );
 

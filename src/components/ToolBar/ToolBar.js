@@ -10,7 +10,6 @@ class ToolBar extends Component {
         <ul>
           <li><NavLink style={{ color: 'white' }} activeStyle={{ color: 'blue' }} to="/projects">Projects</NavLink></li>
           <li><NavLink style={{ color: 'white' }} activeStyle={{ color: 'blue' }} to="/about">About Me</NavLink></li>
-          <li><NavLink style={{ color: 'white' }} activeStyle={{ color: 'blue' }} to="/contact">Contact</NavLink></li>
         </ul>
       </Navbar>
 

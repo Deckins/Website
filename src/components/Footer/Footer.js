@@ -5,9 +5,9 @@ class Footer extends Component {
         return (
           <div className='footer'>
           <div className='media'>
-            <a href='/'>Link 1</a>
-            <a href='/'>Link 2</a>
-            <a href='/'>Link 3</a>
+            <a href='https://www.facebook.com/HowdyPartners' target="_blank"><img  src='/assets/images/Facebook.png'></img></a>
+            <a href='https://github.com/Deckins' target="_blank"><img src='/assets/images/Github.png'></img></a>
+            <a href='https://linkedin.com/in/benny-thai-a5098a162/' target="_blank"><img src='/assets/images/Linkedin.png'></img></a>
           </div>
             
           </div>

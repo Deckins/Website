@@ -1,18 +1,27 @@
 .footer{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     text-align: center;
-    background-color: rgb(114, 96, 218);
+    background-color: #3d3d3e;
     position: fixed;
     left: 0;
     bottom: 0;
   
 }
+.footer-text{
+    font-family:arial;
+    font-size: 15px;
+    font-weight:600;
+    color:#fff;
+    /* text-transform:uppercase; */
+}
+img{
+    height: 55px;
+    width: 55px;
+    border-radius:100%;
+    margin: 0px 20px;
+}
 .media{
     display:block;
-}
-a {
-    margin: 0px 10px;
-    color:white;
 }
