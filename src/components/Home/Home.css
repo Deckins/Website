@@ -2,7 +2,7 @@
     border-radius: 50%;
     height:200px;
     width:200px;
-    margin: 20px auto;
+    margin: 20px 10px;
 }
 .background{
     max-width:100%;
@@ -19,5 +19,9 @@
 @media screen and (max-width: 600px){
     .jumbotron{
         width:400px;
+    }
+    .header-image{
+        height:100px;
+        width:100px;
     }
 }

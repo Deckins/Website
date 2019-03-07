@@ -5,15 +5,16 @@ body {
 
   
   header {
-    background: 
+    background-image: 
       linear-gradient(
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.1)
       ),
-      url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-      
+      /* url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+      url(/assets/images/sea.jpg);
     background-size: cover;
     height: 100vh;
+    background-position:center;
   }
   
   .title {
@@ -42,3 +43,8 @@ body {
     max-width: 500px;
     margin: 20px auto;
   }
+  /* @media screen and (max-width: 400px){
+    header{
+        width:400px!important;
+    }
+} */
