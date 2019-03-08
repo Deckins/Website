@@ -6,14 +6,14 @@ import './Project.css';
 const Project = (props) => {
 
     return (
-        <div className='center'>
-
+        <div >
             <Card.Header as="h5">
                 <a href={'https://github.com/Deckins'}>
                     My Github Profile
                 </a>
-            </Card.Header>
-            <Row>
+            </Card.Header >
+            <div className='center'> 
+            <Row > 
                 <Col>
                     <Display
                         title={'Draw-A-Sketch'}
@@ -49,7 +49,8 @@ const Project = (props) => {
                     />
                 </Col>
             </Row>
-            {/* <Footer/> */}
+            </div>
+            <Footer/>
         </div>
     );
 

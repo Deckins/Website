@@ -27,13 +27,13 @@ class Home extends Component {
             <div className='center'>
                 <div >
                     <Image id='cat' onClick={(id)=> this.clickHandler(id)} 
-                        src='/assets/images/cat.jpg'
+                        src='/Website/assets/images/cat.jpg'
                         className='header-image'/>
                     <Image id='bear'onClick={(id)=> {this.clickHandler(id)}}
-                    src='/assets/images/bear.jpg'
+                    src='/Website/assets/images/bear.jpg'
                      className='header-image'/>
                     <Image id='dog' onClick={(id)=> {this.clickHandler(id)}}
-                    src='/assets/images/dog.jpg'
+                    src='/Website/assets/images/dog.jpg'
                      className='header-image'/>
                 </div>
                 <Jumbotron className='jumbotron'>

@@ -13,7 +13,7 @@ class Display extends Component {
                     <Button variant="primary">
                         <a href={this.props.link} style={{ color: 'white' }}>
                             Project Link
-                            </a>
+                        </a>
                     </Button>
                 </Card.Body>
             </div>
