@@ -50,7 +50,7 @@ const Project = (props) => {
                 </Col>
             </Row>
             </div>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 
