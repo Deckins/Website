@@ -10,7 +10,7 @@ class Landing extends Component {
                     <div className="title">
                         <h1>Welcome</h1>
                         <br></br>
-                        <Link to='/Website/Home'><Button>Continue to my Website</Button></Link>
+                        <Link to='/Website/Home'><Button>Explore Now</Button></Link>
                     </div>
                 </header>
             </div>

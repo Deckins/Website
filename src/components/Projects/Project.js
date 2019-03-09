@@ -6,7 +6,7 @@ import './Project.css';
 const Project = (props) => {
 
     return (
-        <div >
+        <div className='body' >
             <Card.Header as="h5">
                 <a href={'https://github.com/Deckins'}>
                     My Github Profile
@@ -39,9 +39,7 @@ const Project = (props) => {
                         link={'https://deckins.github.io/Calculator/'}
                     />
                 </Col>
-               
                 <Col>
-
                     <Display
                         title={'RockPaperNScissors'}
                         text={'Battle the Computer in an intense game of Rock, paper and scissors!'}
@@ -50,7 +48,7 @@ const Project = (props) => {
                 </Col>
             </Row>
             </div>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     );
 
