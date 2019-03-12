@@ -12,7 +12,7 @@ class Home extends Component {
         this.setState({clicked:true, choice:id})
     }
     render() {
-        let affiliation =  <h5>Choose your affiliation</h5>;
+        let affiliation =  <h5>Welcome to my website!</h5>;
         if(this.state.clicked===true){
             if(this.state.choice === 'dog')
            affiliation = <div>Looks like you've chosen Dog</div>

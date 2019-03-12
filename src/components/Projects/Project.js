@@ -6,7 +6,7 @@ import './Project.css';
 const Project = (props) => {
 
     return (
-        <div className='body' >
+        <div className='divBody' >
             <Card.Header as="h5">
                 <a href={'https://github.com/Deckins'}>
                     My Github Profile
