@@ -18,8 +18,8 @@ class About extends Component {
                 <div className='body-text wrapper'>
                     <h3>My Experiences</h3>
                     <p className='body-text '>I'm Benny, currently a full time student at Brooklyn College with an interest
-                        in Web Development. I have experience with creating responsive designs as well as server side
-                        scripting with backend development.
+                        in FullStack Web Development. I have experience with creating responsive web designs as well as server side
+                        scripting for backend development.
                         
                     </p>
                     </div>
@@ -38,22 +38,20 @@ class About extends Component {
                     <h3>My other interests</h3>
                     <p className='body-text'>
                         I've also taken an interest in financial markets, more specifically stocks and equities.
-                        The idea of understanding global events and analyzing it to see what kind of impact it will
-                        have on all types of people is extremly challenging and fun to me. It not only keeps me 
+                        The idea of analyzing global events to see what kind of impact it will
+                        have on business and people is extremly challenging and fun to me. It not only keeps me 
                         updated with current events but also sharpens my analytical skills. In the future I hope to leverage
-                        both my knowledge of equities and web development to build a tool that will assist me and others to make 
-                        the best financially wise decisions.
+                        both my knowledge of equities and Web Development to build a tool that will assist me and others to make 
+                        the best financial decisions possible.
                     </p>
                     </div>
 
                     <div className='body-text wrapper'>
                     <h3>How to contact me</h3>
                     <p className='body-text'>
-                        If you have any comments, questions or concerns feel free to contact me through any of my
-                        social media links below. Just simply click on one of the icons and send me a message. Or if you just 
-                        wanna
-                        have a chat about anything you find interesting feel free to email me @ bennythai2014@yahoo.com.
-                        
+                        If you have any comments, questions or anything you find interesting feel free to contact me through any of my
+                        social media links below. Just simply click on one of the icons and send me a message. 
+                        You can also contant me through email at bennythai2014@yahoo.com
                     </p>
                     </div>
                 </div>
