@@ -7,7 +7,7 @@ class About extends Component {
             <div className='body-wrapper'>
                 {/* <img className='banner'src='assets/images/header.jpg'></img> */}
                 <div className='bio background'>
-                    <img className='profile' src='/Website/assets/images/profile.jpg'></img>
+                    <img className='profile' alt='profile'src='/Website/assets/images/profile.jpg'></img>
                     <h3>Benny Thai</h3>
                     <p>Software Developer</p>
                 </div>

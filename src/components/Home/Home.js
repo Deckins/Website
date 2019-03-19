@@ -12,7 +12,7 @@ class Home extends Component {
         this.setState({clicked:true, choice:id})
     }
     render() {
-        let affiliation =  <h3>Welcome to my website</h3>;
+        let affiliation =  <h3>Welcome to my Website</h3>;
         if(this.state.clicked===true){
             if(this.state.choice === 'dog')
            affiliation = <div>Looks like you've chosen Dog</div>
@@ -27,13 +27,13 @@ class Home extends Component {
             <div className='center'>
                 <div >
                     <Image id='cat' onClick={(id)=> this.clickHandler(id)} 
-                        src='/Website/assets/images/cat.jpg'
+                        src='/Website/assets/images/cat-min.jpg'
                         className='header-image'/>
                     <Image id='bear'onClick={(id)=> {this.clickHandler(id)}}
-                    src='/Website/assets/images/bear.jpg'
+                    src='/Website/assets/images/bear-min.jpg'
                      className='header-image'/>
                     <Image id='dog' onClick={(id)=> {this.clickHandler(id)}}
-                    src='/Website/assets/images/dog.jpg'
+                    src='/Website/assets/images/dog-min.jpg'
                      className='header-image'/>
                 </div>
                 <Jumbotron className='jumbotron'>
