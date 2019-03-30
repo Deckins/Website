@@ -9,11 +9,13 @@ import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
-   initializeReactGA = () => {
-    ReactGA.initialize('UA-137384144-1');
-    ReactGA.pageview('/Website');
-}
+//    initializeReactGA = () => {
+//     ReactGA.initialize('UA-137384144-1');
+//     ReactGA.pageview('/Website');
+// }
   render() {
+    ReactGA.initialize('UA-137384144-1');
+    ReactGA.pageview('https://deckins.github.io/Website/');
     return (
       <BrowserRouter>
         <div className='App'>
