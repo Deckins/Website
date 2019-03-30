@@ -15,7 +15,7 @@ class App extends Component {
 // }
   render() {
     ReactGA.initialize('UA-137384144-1');
-    ReactGA.pageview('https://deckins.github.io/Website/');
+    ReactGA.pageview('https://deckins.github.io/Website/Home');
     return (
       <BrowserRouter>
         <div className='App'>
