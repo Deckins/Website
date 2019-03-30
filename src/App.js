@@ -4,10 +4,15 @@ import About from './components/About/About';
 import Project from './components/Projects/Project';
 import ToolBar from './components/ToolBar/ToolBar';
 import Landing from './components/Landing/Landing';
+import ReactGA from 'react-ga';
 import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
+   initializeReactGA = () => {
+    ReactGA.initialize('UA-137384144-1');
+    ReactGA.pageview('/Website');
+}
   render() {
     return (
       <BrowserRouter>
