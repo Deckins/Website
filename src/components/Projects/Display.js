@@ -11,8 +11,8 @@ class Display extends Component {
                         {this.props.text}
                     </Card.Text>
                     <Button variant="primary">
-                        <a target='_blank' rel="noopener noreferrer" href={this.props.link} style={{ color: 'white' }}>
-                            Project Link
+                        <a className='link' target='_blank' rel="noopener noreferrer" href={this.props.link} style={{ color: 'white' }}>
+                            Project Link    
                         </a>
                     </Button>
                 </Card.Body>

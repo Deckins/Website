@@ -12,25 +12,36 @@ const Project = (props) => {
                     My Github Profile
                 </a>
             </Card.Header >
-            <div className='center'> 
+
+            <div className='bg-color'> 
+            
             <Row > 
                 <Col>
                     <Display
-                        title={'Draw-A-Sketch'}
-                        text={'Click the link to see what kind of drawing you can create!'}
-                        link={'https://deckins.github.io/Etch-a-Sketch/'}
+                        title={'Brainergy'}
+                        text={'Snap a picture to identify your food and calculate its nutrients! '}
+                        link={'https://github.com/Deckins/Brainergy'}
                     />
                 </Col>
                 <Col>
-
                     <Display
-                        title={'GoSave'}
-                        text={'Compete with your friends to see who can save the most money!'}
-                        link={'https://github.com/calchen01/GoSave/'}
+                        title={'FlipLet'}
+                        text={'Check out our interactive flip card simulator to improve your learning! '}
+                        link={'https://deckins.github.io/FlipLet/'}
                     />
                 </Col>
-            </Row>
-            <Row>
+             </Row>
+             <Row>
+                <Col>
+
+                    <Display
+                        title={'Etch-A-Sketch'}
+                        text={'What kind of drawing can you create?'}
+                        link={'https://deckins.github.io/Etch-a-Sketch/'}
+                    />
+                </Col>
+            
+            
                 <Col>
 
                     <Display
@@ -39,13 +50,7 @@ const Project = (props) => {
                         link={'https://deckins.github.io/Calculator/'}
                     />
                 </Col>
-                <Col>
-                    <Display
-                        title={'RockPaperNScissors'}
-                        text={'Battle the Computer in an intense game of Rock, paper and scissors!'}
-                        link={'https://deckins.github.io/rock_paper_scissors/'}
-                    />
-                </Col>
+               
             </Row>
             </div>
             <Footer/>

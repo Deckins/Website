@@ -20,6 +20,20 @@
     width:700px;
     font-family:'arial';
 }
+.img-wrapper{
+    width:100%;
+    position:relative;
+    top:-50px;
+    z-index:-1;
+}
+.bridge{
+    
+        display: block;
+        width: 100%;
+        /* height:500px; */
+        height: auto;
+      
+}
 
 @media screen and (max-width: 600px){
     .jumbotron{
@@ -30,4 +44,62 @@
         height:120px;
         width:120px;
     }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+/* html, body {
+	height: 100%;
+	margin: 0;
+} */
+
+.font-body {
+	font-family: 'Special Elite', cursive;
+	background: #fffdf5;
+	color: #3f3f5a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    position:relative;
+    top:-50px;
+    overflow:hidden;
+}
+
+blockquote {
+	font-weight: 100;
+	font-size: 2rem;
+	max-width: 600px;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding: .5rem;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: -5rem;
+	top: -2rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -5rem;
+	bottom: 1rem;
+}
+
+cite {
+	line-height: 3;
+    text-align: left;
+    margin-bottom:30px;
 }

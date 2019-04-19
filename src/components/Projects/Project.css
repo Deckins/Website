@@ -7,9 +7,11 @@ ul {
     display:inline;
 }
 
-.center{
-    text-align:center;
-}
-.divBody{
-    margin-bottom: 150px;
+.bg-color{
+    /* text-align:center; */
+    background-color: rgb(25, 53, 116);
+    /* overflow:visible */
+    padding: 30px 20px;
+    padding-bottom:70px;
+    
 }
