@@ -13,13 +13,7 @@
     position:relative;
     top:50px;
 }
-.jumbotron{
-    background-color:#337AB7;
-    color:white;
-    margin: 0 auto;
-    width:700px;
-    font-family:'arial';
-}
+
 .img-wrapper{
     width:100%;
     position:relative;
@@ -35,7 +29,7 @@
       
 }
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .jumbotron{
         width:400px;
         
@@ -44,7 +38,7 @@
         height:120px;
         width:120px;
     }
-}
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
@@ -61,7 +55,7 @@
 	flex-direction: column;
 	align-items: center;
     justify-content: center;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
     position:relative;
     top:-50px;
     overflow:hidden;
@@ -69,12 +63,14 @@
 
 blockquote {
 	font-weight: 100;
-	font-size: 2rem;
+	font-size: 1.3rem;
 	max-width: 600px;
 	line-height: 1.4;
 	position: relative;
 	margin: 0;
-	padding: .5rem;
+    padding: .5rem;
+    /* padding:20px 20px; */
+    margin-top:50px;
 }
 
 blockquote:before,
