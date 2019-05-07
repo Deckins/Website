@@ -27,7 +27,7 @@ const Project = (props) => {
                     <Display
                         title={'FlipLet'}
                         text={'Check out our interactive flip card simulator to improve your learning! '}
-                        link={'https://deckins.github.io/FlipLet/'}
+                        link={'https://storage.googleapis.com/flipbird/index.html'}
                     />
                 </Col>
              </Row>
