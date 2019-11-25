@@ -15,12 +15,12 @@ const Project = (props) => {
 
             <div className='bg-color'> 
             
-            <Row > 
+            <Row >  
                 <Col>
                     <Display
-                        title={'Brainergy'}
-                        text={'Snap a picture to identify your food and calculate its nutrients! '}
-                        link={'https://github.com/Deckins/Brainergy'}
+                        title={'EzSave'}
+                        text={'Start saving now with this personal spending tracker '}
+                        link={'https://ezsave-5c146.firebaseapp.com/'}
                     />
                 </Col>
                 <Col>
