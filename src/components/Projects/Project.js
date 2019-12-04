@@ -3,6 +3,9 @@ import { Card, Row, Col } from 'react-bootstrap';
 import Display from './Display';
 import Footer from '../Footer/Footer';
 import './Project.css';
+//TO make changes to gb pages
+//run - yarn build
+//then - yarn run deploy
 const Project = (props) => {
 
     return (

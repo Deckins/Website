@@ -7,7 +7,7 @@ class Home extends Component {
         return (
             <div>
                     <div className='img-wrapper'>
-                        <img className='bridge' src='/Website/assets/images/city.jpg' />
+                        <img className='bridge' alt="bridge" src='/Website/assets/images/city.jpg' />
                     </div>
                     <div className='font-body'>
                         <blockquote>
@@ -15,6 +15,7 @@ class Home extends Component {
                         If you want to conquer fear, do not sit home and think about it. 
                         Go out and get busy
                         </blockquote>
+
                         <cite>Dale Carnegie</cite>
                     </div>
                 <Footer />
